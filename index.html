@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="This is an exercise website to demonstrate various tags and attributes on HTML">
+        <meta name="author" content="Paul Ochieng">
+        <meta name="keywords" content="HTML practise, HTML tags, HTML attributes, Web development beginner">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My HTML Practise Website - Homepage</title>
+    </head>
+    <body>
+        <header>
+            <img src="html5-emblem.jpg" alt="HTML 5 orange logo" width="100" height="100">
+            <h1>Welcome to this HTML Appreciation Website</h1>
+            <nav>
+                <ul>
+                    <li><a href=".">Home</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#author">About the Author</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <h2>What is HTML?</h2>
+                <p>
+                    HTML (HyperText Markup Language) is the standard language used to create 
+                    and structure web pages. It uses tags to define elements like headings, 
+                    paragraphs, links, images, and more. A basic HTML document includes:
+                </p>
+                <fieldset>
+                    <legend>Basic HTML Document</legend>
+                    <pre><code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Page Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;My First Heading&lt;/h1&gt;
+        &lt;p&gt;My first paragraph.&lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+                </code></pre>
+                </fieldset>
+                <p>
+                    HTML works with CSS (for styling) and JavaScript (for interactivity) to 
+                    build modern websites. It’s easy to learn and essential for web development! 🚀
+                </p>
+                <img src="html_banner.jpg" alt="html banner">
+                <hr aria-label="Content separator">
+                
+            </section>
+            <section id="history">
+                <h2>Brief History of HTML</h2>
+                <p>
+                    HTML (HyperText Markup Language) is the backbone of the World 
+                    Wide Web, shaping how content is structured online. Here’s a 
+                    quick timeline of its evolution:
+                </p>
+                <ol type="1">
+                    <li><strong>Birth of HTML (1989–1991)</strong>
+                        <ul>
+                            <li><b>1989: Tim Berners-Lee</b>, a scientist at CERN, proposed a hypertext system to share research documents.</li>
+                            <li><b>1991:</b> The first version, <b>HTML 1.0</b>, was introduced, featuring basic text formatting, links, and simple document structure.</li>
+                        </ul>
+                    </li><br>
+                    <li><strong>Standardization (1995–1997)</strong>
+                        <ul>
+                            <li><b>HTML 2.0 (1995):</b> The first standardized version by the IETF (Internet Engineering Task Force), adding forms and tables.</li>
+                            <li><b>HTML 3.2 (1997):</b> Introduced by the <b>W3C</b> (World Wide Web Consortium), adding support for CSS, JavaScript, and better tables.</li>
+                        </ul>
+                    </li> <br>
+                    <li><strong>Rise of Dynamic Web (1997–1999)</strong>
+                        <ul>
+                            <li><b>HTML 4.01 (1999):</b> A major update with better styling (CSS), scripting (JavaScript), and accessibility features.</li>
+                        </ul>
+                    </li> <br>
+                    <li><strong>XHTML Era (2000–2009)</strong>
+                        <ul>
+                            <li><b>XHTML 1.0 (2000):</b> A stricter, XML-based version of HTML 4.01, enforcing cleaner code.</li>
+                            <li><b>XHTML 2.0 (2000s):</b> Failed to gain adoption due to incompatibility with existing web content.</li>
+                        </ul>
+                    </li> <br>
+                    <li><strong>Modern Web: HTML5 (2008–Present)</strong>
+                        <ul>
+                            <li><b>HTML5 (2014):</b> Officially standardized, introducing:
+                                <ol type="a">
+                                    <li>Semantic elements (<b><code>&lt;header&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;footer&gt;</code>)</b></li>
+                                    <li>Multimedia support with <b><code>&lt;video&gt;</code></b> and <b><code>&lt;audio&gt;</code></b> tags</li>
+                                    <li>APIs for offline storage, drag-and-drop, and geolocation</li>
+                                    <li>Better mobile compatibility</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><h4>The Future: Living Standard (Ongoing)</h4>
+                        <ul>
+                            <li>HTML is now a <b>"living standard"</b>, continuously updated by the <b>WHATWG</b> (Web Hypertext Application Technology Working Group).</li>
+                            <li>New features include Web Components, enhanced accessibility, and improved performance.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <h4><u>HTML Timeline Table</u></h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Version</th>
+                            <th>Key feature</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1991</td>
+                            <td>&emsp;&nbsp;HTML 1.0</td>
+                            <td>&emsp;&emsp;Basic text formatting, hyperlinks</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>&emsp;&nbsp;HTML 2.0</td>
+                            <td>&emsp;&emsp;Standardized forms, tables</td>
+                        </tr>
+                        <tr>
+                            <td>1997</td>
+                            <td>&emsp;&nbsp;HTML 3.2</td>
+                            <td>&emsp;&emsp;CSS & JavaScript support, better tables</td>
+                        </tr>
+                        <tr>
+                            <td>1999</td>
+                            <td>&emsp;&nbsp;HTML 4.01</td>
+                            <td>&emsp;&emsp;Improved styling, accessibility</td>
+                        </tr>
+                        <tr>
+                            <td>2000</td>
+                            <td>&emsp;&nbsp;XHTML 1.0</td>
+                            <td>&emsp;&emsp;Stricter XML-based syntax</td>
+                        </tr>
+                        <tr>
+                            <td>2014</td>
+                            <td>&emsp;&nbsp;HTML 5</td>
+                            <td>&emsp;&emsp;Semantic tags, multimedia APIs, mobile-friendly</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Conclusion</h3>
+                <p>From a simple document markup language to a powerful web development tool, HTML has evolved alongside the internet, remaining essential for modern websites.</p>
+                <img src="html_2.PNG" alt="Graphic HTML snapshot code with fingers on background">
+                <hr aria-label="content separator">
+            </section>
+            
+            <section id="author">
+                <h2>About the Author</h2>
+                <article>
+                    <h3>Who Am I</h3>
+                    <p>
+                        The author is an aspiring <strong>full-stack developer</strong> from Nairobi, Kenya, with a background in Physics (BSc, JKUAT). 
+                        For a long time he has been intrigued and curious about software development, and is thrilled that he is now actively transitioning into the field through the 
+                        <strong>Power Learn Project (PLP)</strong> July 2025 cohort.
+                    </p>
+                </article>
+                <article>
+                    <h3>Author's Journey</h3>
+                    <ul>
+                        <li><strong>🎓 Education:</strong> Holder of Bachelor’s degree in Physics from Jomo Kenyatta University of Agriculture and Technology (JKUAT).</li>
+                        <li><strong>🏢 Work Experience:</strong> Considerable formal work experience in data analysis and Business Operations</li>
+                        <li><strong>💡 Career Shift:</strong> Driven by a fascination for technology, he applied for and received the PLP software engineering Scholarship of July 2025.</li>
+                        <li><strong>🌱 Current Focus:</strong> Diligently honing his skills in full-stack development through the PLP course, with the goal of mastering both frontend and backend technologies.</li>
+                    </ul>
+                </article>
+        </main>
+        <hr aria-label="content separator">
+        <footer>
+            <h3>Quick Links</h3>
+            <nav>
+                <a href="." title="Scroll to the top">Home</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#history" title="Scroll to History of HTML section">HTML History</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="https://academy.powerlearnprojectafrica.org" title="Open PLP Academy website on a new tab" target="_blank" rel="noopener">PLP Academy</a>
+            </nav>
+            <p><small>&copy; 2025 Paul Ochieng. Built with HTML for PLP</small></p>
+        </footer>
+    </body>
+    
 
+</html>
