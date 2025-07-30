@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <!-- Character encoding for proper text rendering -->
+        <meta charset="UTF-8"> 
+
+        <!-- For proper scaling on mobile devices -->
         <meta name="viewport" content="width=device-width">
+
+        <!-- Short page summary for search engines -->
         <meta name="description" content="This is an exercise website to demonstrate various tags and attributes on HTML">
+
+        <!-- Identification of the content author -->
         <meta name="author" content="Paul Ochieng">
+
+        <!-- Keywords for SEO -->
         <meta name="keywords" content="HTML practise, HTML tags, HTML attributes, Web development beginner">
+
+        <!-- For compatibility with older versions of Internet Explorer -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>My HTML Practise Website - Homepage</title>
+
+        <!-- Title to be shown in browser tab and used by search engines -->
+        <title>My HTML Appreciation Website</title>
     </head>
+
     <body>
         <header>
             <img src="html5-emblem.jpg" alt="HTML 5 orange logo" width="100" height="100">
             <h1>Welcome to this HTML Appreciation Website</h1>
+
+            <!-- Primary navigation links -->
             <nav>
                 <ul>
                     <li><a href=".">Home</a></li>
@@ -21,6 +37,8 @@
                 </ul>
             </nav>
         </header>
+
+        <!-- Main content of the webpage -->
         <main>
             <section id="home">
                 <h2>What is HTML?</h2>
@@ -29,8 +47,12 @@
                     and structure web pages. It uses tags to define elements like headings, 
                     paragraphs, links, images, and more. A basic HTML document includes:
                 </p>
+
+                <!-- Using <fieldset> to group a code block -->
                 <fieldset>
                     <legend>Basic HTML Document</legend>
+
+                    <!-- Preformatted HTML sample code -->
                     <pre><code>
     &lt;!DOCTYPE html&gt;
     &lt;html&gt;
@@ -48,10 +70,16 @@
                     HTML works with CSS (for styling) and JavaScript (for interactivity) to 
                     build modern websites. It’s easy to learn and essential for web development! 🚀
                 </p>
+
+                <!-- Decorative image -->
                 <img src="html_banner.jpg" alt="html banner">
+
+                <!-- Visual separation of this section from the next -->
                 <hr aria-label="Content separator">
                 
             </section>
+
+            <!-- Section no.2: History of HTML -->
             <section id="history">
                 <h2>Brief History of HTML</h2>
                 <p>
@@ -59,6 +87,8 @@
                     Wide Web, shaping how content is structured online. Here’s a 
                     quick timeline of its evolution:
                 </p>
+
+                <!-- Ordered list to show HTML version timeline, each with nested list -->
                 <ol type="1">
                     <li><strong>Birth of HTML (1989–1991)</strong>
                         <ul>
@@ -102,6 +132,8 @@
                         </ul>
                     </li>
                 </ol>
+
+                <!-- Table to summarise HTML versions -->
                 <h4><u>HTML Timeline Table</u></h4>
                 <table>
                     <thead>
@@ -146,10 +178,13 @@
                 </table>
                 <h3>Conclusion</h3>
                 <p>From a simple document markup language to a powerful web development tool, HTML has evolved alongside the internet, remaining essential for modern websites.</p>
+
+                <!-- Decorative image to end the section -->
                 <img src="html_2.PNG" alt="Graphic HTML snapshot code with fingers on background">
                 <hr aria-label="content separator">
             </section>
             
+            <!-- Section no 3: About the Author -->
             <section id="author">
                 <h2>About the Author</h2>
                 <article>
@@ -170,14 +205,20 @@
                     </ul>
                 </article>
         </main>
+
+        <!-- Horizontal rule to separate footer -->
         <hr aria-label="content separator">
         <footer>
             <h3>Quick Links</h3>
+
+            <!-- Footer navigation -->
             <nav>
                 <a href="." title="Scroll to the top">Home</a> &nbsp;&nbsp;|&nbsp;&nbsp;
                 <a href="#history" title="Scroll to History of HTML section">HTML History</a> &nbsp;&nbsp;|&nbsp;&nbsp;
                 <a href="https://academy.powerlearnprojectafrica.org" title="Open PLP Academy website on a new tab" target="_blank" rel="noopener">PLP Academy</a>
             </nav>
+
+            <!-- Copyright -->
             <p><small>&copy; 2025 Paul Ochieng. Built with HTML for PLP</small></p>
         </footer>
     </body>
